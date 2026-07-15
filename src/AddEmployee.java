@@ -189,7 +189,7 @@ public class AddEmployee extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(jTextField1.getText().equals("")){
             jTextField1.setText("Eg.John");
-            jTextField1.setForeground(new Color(153,153,153));
+            jTextField1.setForeground(new Color(0,0,0));
         }
     }//GEN-LAST:event_jTextField1FocusLost
 
@@ -210,7 +210,7 @@ public class AddEmployee extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(jTextField2.getText().equals("")){
             jTextField2.setText("Eg 1234567890");
-            jTextField2.setForeground(new Color(153,153,153));
+            jTextField2.setForeground(new Color(0,0,0));
         }
     }//GEN-LAST:event_jTextField2FocusLost
 

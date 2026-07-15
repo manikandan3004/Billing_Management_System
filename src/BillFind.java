@@ -133,7 +133,7 @@ public class BillFind extends javax.swing.JFrame {
         try{
             Connection con = ConnectionProvider.getCon();
             Statement st = con.createStatement();
-            ResultSet rs = st.executeQuery("select productid,rate,quantity,subtotal from bill_details where bid='"+bid+"'");
+            ResultSet rs = st.executeQuery("select productname,rate,quantity,subtotal from bill_details where bid='"+bid+"'");
             
                 jTable1.setModel(DbUtils.resultSetToTableModel(rs));
                 
